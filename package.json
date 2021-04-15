@@ -1,11 +1,11 @@
 {
   "name": "discord-email-verifier-bot",
   "version": "1.0.0",
-  "description": "ACM at UCLA Discord Server Verification Bot",
+  "description": "Vanderbilt Student Government Discord Bot",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "source .env && node ."
+    "start": "node ."
   },
   "author": "entrohpy",
   "repository": {
@@ -15,6 +15,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.2.5",
     "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
     "sqlite": "^4.0.14",
     "sqlite3": "^5.0.0"
   }

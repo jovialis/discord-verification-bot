@@ -2,11 +2,11 @@ module.exports = {
   db_path: './users.db',
   allowed_domains: ['vanderbilt.edu'],
   discord: {
-    server_id: '754931521315536937',
+    server_id: '826977620482588692',
     verified_role_name: 'Verified',
   },
   sendgrid: {
-    template_id: 'd-f2190ba3825945a79e24cf06b2fd984c',
-    sender: 'charles.d.hanson@vanderbilt.edu',
+    template_id: 'd-fc5b8909c7e7433991160ccfd4ca8e7c',
+    sender: 'vsg@vanderbilt.edu',
   },
 };
